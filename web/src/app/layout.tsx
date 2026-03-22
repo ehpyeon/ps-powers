@@ -8,7 +8,7 @@ import ReadingProgress from "@/components/ReadingProgress";
 import SettingsToggles from "@/components/SettingsToggles";
 
 export const metadata: Metadata = {
-  title: "Jimin's 4 Weeks — Learning Harness Engineering through Storytelling",
+  title: "Harness 101 — Learning Harness Engineering through Storytelling",
   description: "Follow Jimin's 4-week journey to master Claude Code and become a Harness Engineer",
 };
 

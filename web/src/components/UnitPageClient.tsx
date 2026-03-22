@@ -147,7 +147,7 @@ export default function UnitPageClient({
 
           {/* Harness position bar */}
           <div className="mt-5 flex items-center gap-2 font-mono text-xs">
-            <span className="text-[var(--color-text-muted)]">{t.breadcrumbHome === "학습 경로" ? "Harness =" : "Harness ="}</span>
+            <span className="text-[var(--color-text-muted)]">Harness =</span>
             {(["Tools", "Knowledge", "Context", "Permissions"] as const).map((layer) => {
               const isActive =
                 (layer === "Tools" && (unit.layer === "tools" || unit.layer === "foundation")) ||
