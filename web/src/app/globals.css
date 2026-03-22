@@ -154,13 +154,13 @@ html.light .prose pre {
   background: none;
   padding: 0;
   font-size: 0.875rem;
-  line-height: 1.2;
+  line-height: 1;
   color: #d4d4d8;
   border: none;
 }
 
 /* Shiki syntax highlighting */
-.prose pre code .line { display: block; white-space: pre-wrap; word-break: break-word; }
+.prose pre code .line { display: block; line-height: 1; white-space: pre-wrap; word-break: break-word; }
 .prose pre code span { background: none !important; }
 
 /* Code copy button */
