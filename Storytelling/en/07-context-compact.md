@@ -50,6 +50,7 @@ Working on large codebases or long-running tasks meant context filled up.
 
 ---
 
+<!-- section:workshop -->
 ## A Real Look at Token Costs
 
 To understand why context fills up so fast, you need to know the actual token costs.
@@ -351,6 +352,7 @@ This shares the spirit of git branch: **explore and compare different paths from
 
 > **⚠️ Warning:** Once context exceeds 50%, you enter the "Dumb Zone." Claude's reasoning quality visibly degrades. Avoid large refactoring or complex judgments in this zone. Start after /compact.
 
+<!-- section:reflection -->
 ## The Harness Perspective: The Context Layer
 
 The core insight of Harness Engineering:

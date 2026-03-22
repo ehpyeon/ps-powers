@@ -105,6 +105,7 @@ Jimin's eyes went wide. *"Keep reasoning sequential, and just extract the I/O."*
 
 ---
 
+<!-- section:workshop -->
 ## BackgroundManager: Like Ordering at a Café
 
 The solution was surprisingly simple. Using a café analogy:
@@ -312,6 +313,7 @@ When a PR was opened, Claude would automatically review it, and for simple fixes
 
 ---
 
+<!-- section:reflection -->
 ## Harness Perspective: The Ultimate Expansion of the Agent Loop
 
 ```

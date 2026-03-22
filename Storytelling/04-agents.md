@@ -145,6 +145,7 @@ def run_subagent(prompt: str) -> str:
 
 ---
 
+<!-- section:workshop -->
 ## Claude Code에서 Agents = 전문화된 서브에이전트
 
 Context Isolation 패턴이 Claude Code에서는 **Agent 정의 파일**로 구현됐다.
@@ -359,6 +360,7 @@ Harness 관점:
 
 ---
 
+<!-- section:reflection -->
 ## 에이전트가 성숙하면서 생긴 문제
 
 에이전트 시스템이 정착하면서 또 다른 문제가 드러났다.

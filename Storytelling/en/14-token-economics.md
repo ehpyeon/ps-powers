@@ -85,6 +85,7 @@ When Haiku is appropriate:
 
 ---
 
+<!-- section:workshop -->
 ## Cost Optimization for Agent Teams
 
 Jimin redesigned the team composition:
@@ -222,6 +223,7 @@ If $35/day replaces a senior engineer's repetitive work? The ROI speaks for itse
 
 ---
 
+<!-- section:reflection -->
 ## Reflection: Cost as a Design Tool, Not a Constraint
 
 Jimin showed the cost report to Seoyeon.

@@ -62,6 +62,7 @@ Actually, more fundamentally — **they shouldn't be in the same directory.**"*
 
 ---
 
+<!-- section:workshop -->
 ## Git Worktree: Same Repository, Different Rooms
 
 Git already had a feature that solved this problem.
@@ -255,6 +256,7 @@ docker run -it -v $(pwd):/workspace anthropic/claude-code
 
 ---
 
+<!-- section:reflection -->
 ## Jimin's Team Becomes Safe
 
 After applying worktree:

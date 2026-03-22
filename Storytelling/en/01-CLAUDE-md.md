@@ -102,6 +102,7 @@ Think of Claude as a new team member:
 
 ---
 
+<!-- section:workshop -->
 ## The Hierarchy of CLAUDE.md
 
 Over time, CLAUDE.md became more sophisticated.
@@ -266,6 +267,7 @@ Claude doesn't know the project's tech stack. Whether it's Express or Next.js, J
 - [ ] Summarize the project overview, tech stack, and key rules in under 200 lines
 - [ ] Explain the difference between a new session with and without CLAUDE.md
 
+<!-- section:reflection -->
 ## The Next Story
 
 CLAUDE.md created the Knowledge layer.

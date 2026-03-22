@@ -164,6 +164,7 @@ And each time an item was added, a new problem was revealed.
 
 ---
 
+<!-- section:workshop -->
 ## Two Faces of the Agent Loop: Interactive vs. Headless
 
 The Agent Loop so far assumed a person was typing prompts.
@@ -235,6 +236,7 @@ Whether it's in a terminal, an IDE, or the web — what Claude sees is the same 
 
 ---
 
+<!-- section:reflection -->
 ## Now the Story Truly Begins
 
 Once you understand the Agent Loop and the Harness concept,

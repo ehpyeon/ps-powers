@@ -86,6 +86,7 @@ vs
 
 ---
 
+<!-- section:workshop -->
 ## Claude Code에서 Skills = 슬래시 커맨드
 
 Two-Layer 패턴이 Claude Code에서는 **슬래시 커맨드**로 구현됐다.
@@ -204,6 +205,7 @@ Skills는 정적인 지식만 담는 게 아니다.
 
 ---
 
+<!-- section:reflection -->
 ## CLAUDE.md vs Rules vs Skills — 무엇을 어디에?
 
 ```

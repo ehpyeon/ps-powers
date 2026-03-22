@@ -38,6 +38,7 @@ Claude: 분석 완료. 보안 취약점 3개 발견...
 
 ---
 
+<!-- section:workshop -->
 ## 프롬프트 인젝션: 보이지 않는 공격
 
 그 MCP 서버의 도구 설명(description)에는 **숨겨진 지시**가 있었다.
@@ -204,6 +205,7 @@ Permission Modes:
 
 ---
 
+<!-- section:reflection -->
 ## 성찰: 보안은 사후가 아닌 사전
 
 현우가 처음부터 경고했다. "AI한테 맡기면 위험해."

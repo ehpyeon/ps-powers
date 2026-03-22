@@ -121,6 +121,7 @@ Permissions 레이어의 핵심 원칙:
 
 ---
 
+<!-- section:workshop -->
 ## Permission Modes: 거시적 권한 스위치
 
 Hooks가 **미시적** 권한 제어(개별 툴 단위)라면,
@@ -354,6 +355,7 @@ python3 .claude/hooks/scripts/toggle-hook.py toggle PostToolUse
 
 ---
 
+<!-- section:reflection -->
 ## 훅이 성숙하면서 생긴 문제
 
 훅 시스템이 강력해질수록, 개발자들은 더 복잡한 걸 원했다.

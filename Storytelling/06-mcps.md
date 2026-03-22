@@ -80,6 +80,7 @@ MCP는 AI와 외부 서비스 사이의 USB다.
 
 ---
 
+<!-- section:workshop -->
 ## MCP의 작동 방식
 
 ### 1단계: MCP 서버 등록
@@ -369,6 +370,7 @@ Claude: (MCP 도구 호출) → 배포가 시작되었습니다. 약 3분 소요
 
 ---
 
+<!-- section:reflection -->
 ## 전체 이야기의 완성: Harness가 완성되다
 
 ```

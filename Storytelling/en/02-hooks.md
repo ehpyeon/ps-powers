@@ -121,6 +121,7 @@ The core principle of the Permissions layer:
 
 ---
 
+<!-- section:workshop -->
 ## Permission Modes: The Macro Permission Switch
 
 If Hooks are **micro** permission control (individual tool level),
@@ -354,6 +355,7 @@ python3 .claude/hooks/scripts/toggle-hook.py toggle PostToolUse
 
 ---
 
+<!-- section:reflection -->
 ## The Problem That Emerged as Hooks Matured
 
 As the hook system became more powerful, developers wanted more complex things.

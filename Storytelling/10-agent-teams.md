@@ -84,6 +84,7 @@ Ch10 (팀):
 
 ---
 
+<!-- section:workshop -->
 ## Message Bus: 편지함
 
 팀이 생기면 소통이 필요하다. 하지만 에이전트들은 **서로의 컨텍스트를 볼 수 없다.** (그것이 Context Isolation의 목적이니까.)
@@ -361,6 +362,7 @@ Autonomous Agent의 Idle Cycle:
 
 > **💬** "tmux와 worktree를 조합해서 5개 Claude를 동시에 돌려라. 각 터미널 탭에서 독립적으로 작업하면서 작업 보드로 조율한다." — Boris Cherny, Claude Code 창시자
 
+<!-- section:reflection -->
 ## Harness 관점: Context Isolation의 진화
 
 ```

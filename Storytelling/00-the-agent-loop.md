@@ -164,6 +164,7 @@ Claude Code = agent loop (기반)
 
 ---
 
+<!-- section:workshop -->
 ## Agent Loop의 두 얼굴: Interactive vs Headless
 
 지금까지의 Agent Loop는 사람이 프롬프트를 치는 것을 가정했다.
@@ -235,6 +236,7 @@ Harness(Tools + Knowledge + Context + Permissions)만 같으면 어디서든 같
 
 ---
 
+<!-- section:reflection -->
 ## 이제 이야기가 시작된다
 
 Agent Loop와 Harness 개념을 이해했다면,

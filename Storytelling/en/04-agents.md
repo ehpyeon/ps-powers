@@ -145,6 +145,7 @@ When you delegate "explore and find the answer" work to a subagent:
 
 ---
 
+<!-- section:workshop -->
 ## Agents in Claude Code = Specialized Subagents
 
 The Context Isolation pattern is implemented in Claude Code as **agent definition files**.
@@ -359,6 +360,7 @@ From the Harness perspective:
 
 ---
 
+<!-- section:reflection -->
 ## The Problem That Emerged as Agents Matured
 
 As the agent system settled in, yet another problem revealed itself.

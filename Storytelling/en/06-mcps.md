@@ -80,6 +80,7 @@ MCP is the USB between AI and external services.
 
 ---
 
+<!-- section:workshop -->
 ## How MCP Works
 
 ### Step 1: Register the MCP Server
@@ -369,6 +370,7 @@ Recommended order:
 
 ---
 
+<!-- section:reflection -->
 ## The Completion of the Full Story: The Harness Is Complete
 
 ```

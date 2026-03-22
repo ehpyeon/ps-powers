@@ -38,6 +38,7 @@ This time, Hyunwoo was right. *Partially.*
 
 ---
 
+<!-- section:workshop -->
 ## Prompt Injection: The Invisible Attack
 
 The MCP server's tool description had **hidden instructions** embedded in it.
@@ -204,6 +205,7 @@ Permission Modes:
 
 ---
 
+<!-- section:reflection -->
 ## Reflection: Security Is Before, Not After
 
 Hyunwoo warned from the beginning. "It's dangerous to trust AI with this."

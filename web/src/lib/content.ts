@@ -209,7 +209,33 @@ export function splitContentSections(html: string, locale: "ko" | "en" = "ko"): 
   workshop: string;
   reflection: string;
 } {
-  // Split by <h2> tags
+  // Primary: use explicit markers inserted into the markdown files
+  const WORKSHOP_MARKER = "<!-- section:workshop -->";
+  const REFLECTION_MARKER = "<!-- section:reflection -->";
+
+  if (html.includes(WORKSHOP_MARKER) || html.includes(REFLECTION_MARKER)) {
+    const wIdx = html.indexOf(WORKSHOP_MARKER);
+    const rIdx = html.indexOf(REFLECTION_MARKER);
+
+    if (wIdx !== -1 && rIdx !== -1) {
+      const campfire = html.slice(0, wIdx);
+      const workshop = html.slice(wIdx + WORKSHOP_MARKER.length, rIdx);
+      const reflection = html.slice(rIdx + REFLECTION_MARKER.length);
+      return { campfire, workshop, reflection };
+    }
+    if (wIdx !== -1) {
+      const campfire = html.slice(0, wIdx);
+      const workshop = html.slice(wIdx + WORKSHOP_MARKER.length);
+      return { campfire, workshop, reflection: "" };
+    }
+    if (rIdx !== -1) {
+      const campfire = html.slice(0, rIdx);
+      const reflection = html.slice(rIdx + REFLECTION_MARKER.length);
+      return { campfire, workshop: "", reflection };
+    }
+  }
+
+  // Fallback: keyword-based classification (for files without markers)
   const parts = html.split(/(?=<h2[^>]*>)/);
 
   const workshopKw = locale === "en"
@@ -224,7 +250,6 @@ export function splitContentSections(html: string, locale: "ko" | "en" = "ko"): 
   let reflection = "";
 
   for (const part of parts) {
-    // Extract the h2 text for classification
     const h2Match = part.match(/<h2[^>]*>([\s\S]*?)<\/h2>/);
     const headerText = h2Match ? h2Match[1].replace(/<[^>]*>/g, "") : "";
 
@@ -233,10 +258,8 @@ export function splitContentSections(html: string, locale: "ko" | "en" = "ko"): 
     } else if (matchesKeywords(headerText, workshopKw)) {
       workshop += part;
     } else if (h2Match) {
-      // Sections with h2 that don't match workshop/reflection = campfire (story)
       campfire += part;
     } else {
-      // Content before any h2 (title, intro quotes) = campfire
       campfire += part;
     }
   }

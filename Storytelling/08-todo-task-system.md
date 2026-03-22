@@ -87,6 +87,7 @@ Agent Loop에 `todo` 도구를 추가하면:
 
 ---
 
+<!-- section:workshop -->
 ## TodoWrite: 세션 내 계획 관리
 
 ### 세 가지 상태와 하나의 핵심 제약
@@ -362,6 +363,7 @@ Claude:
 
 ---
 
+<!-- section:reflection -->
 ## Task System이 성숙하면서 생긴 문제
 
 Task System으로 작업이 체계화됐다. 그런데 실제로 쓰다 보니 다른 문제가 생겼다.

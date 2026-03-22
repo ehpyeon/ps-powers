@@ -106,6 +106,7 @@ Next.js + TypeScript 프로젝트.
 
 ---
 
+<!-- section:workshop -->
 ## Rules 로딩 메커니즘: 어떻게 "맥락 기반 선택"이 작동하나
 
 Rules 파일은 두 가지 방식으로 로드된다.
@@ -294,6 +295,7 @@ return { ...user, name: newName }
 
 > **💬** "대부분의 세션을 Plan 모드로 시작하라. 만족할 때까지 왔다갔다 하라. Plan 모드에서 합의한 후 구현으로 넘어가면 실수가 줄어든다." — Boris Cherny, Claude Code 창시자
 
+<!-- section:reflection -->
 ## 벽 너머의 세계
 
 Rules로 내부 Knowledge가 체계화됐다.

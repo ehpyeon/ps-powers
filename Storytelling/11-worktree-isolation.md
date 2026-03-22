@@ -62,6 +62,7 @@ qa-agent:      git add src/auth/   (동시에!)
 
 ---
 
+<!-- section:workshop -->
 ## Git Worktree: 같은 저장소, 다른 방
 
 Git에는 이미 이 문제를 해결하는 기능이 있었다.
@@ -255,6 +256,7 @@ docker run -it -v $(pwd):/workspace anthropic/claude-code
 
 ---
 
+<!-- section:reflection -->
 ## 지민의 팀이 안전해지다
 
 Worktree를 적용한 후:

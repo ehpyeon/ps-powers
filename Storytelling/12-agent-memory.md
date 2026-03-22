@@ -110,6 +110,7 @@ Claude: prisma migrate deploy 실행... [성공]
 
 ---
 
+<!-- section:workshop -->
 ## 세 가지 메모리 스코프
 
 메모리는 세 가지 범위로 나뉜다. CSS의 specificity처럼, 더 구체적인 스코프가 우선한다:
@@ -357,6 +358,7 @@ CLAUDE.md:
 
 > **❌ Anti-pattern:** MEMORY.md에 보장(guarantee)을 넣지 마라. "항상 pnpm을 써라"는 CLAUDE.md나 Rules에 넣어야 한다. MEMORY.md는 학습된 **운영 지식**용이다 — 보장이 아닌 관찰.
 
+<!-- section:reflection -->
 ## Harness 관점: Knowledge 레이어의 완성
 
 ```

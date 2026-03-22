@@ -21,6 +21,7 @@ But over four weeks, Jimin came to understand. Claude was an agent from the very
 
 ---
 
+<!-- section:reflection -->
 ## The Full Picture
 
 The final diagram Jimin drew on the whiteboard:

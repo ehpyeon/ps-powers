@@ -106,6 +106,7 @@ For rules, refer to .claude/rules/.
 
 ---
 
+<!-- section:workshop -->
 ## The Rules Loading Mechanism: How "Context-Based Selection" Works
 
 Rules files are loaded in two ways.
@@ -294,6 +295,7 @@ You can see that each file focuses on exactly one topic.
 
 > **💬** "Start most sessions in Plan mode. Go back and forth until you're satisfied. Once you've agreed on a plan in Plan mode, there are fewer mistakes when you move to implementation." — Boris Cherny, creator of Claude Code
 
+<!-- section:reflection -->
 ## Beyond the Wall
 
 With Rules, the internal Knowledge was systematized.

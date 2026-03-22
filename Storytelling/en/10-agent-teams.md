@@ -84,6 +84,7 @@ Same `.tasks/` infrastructure. Same `blockedBy`/`blocks` DAG. The difference is 
 
 ---
 
+<!-- section:workshop -->
 ## Message Bus: The Mailbox
 
 When there's a team, there needs to be communication. But agents **can't see each other's context.** (That's the whole point of Context Isolation.)
@@ -361,6 +362,7 @@ All are request-response pairs connected by `request_id`.
 
 > **💬** "Use tmux and worktree together to run 5 Claudes simultaneously. Each terminal tab works independently while coordinating through the task board." — Boris Cherny, creator of Claude Code
 
+<!-- section:reflection -->
 ## Harness Perspective: The Evolution of Context Isolation
 
 ```

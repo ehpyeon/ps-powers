@@ -50,6 +50,7 @@ messages = [
 
 ---
 
+<!-- section:workshop -->
 ## 토큰 비용 실측표
 
 컨텍스트가 왜 빨리 차는지 이해하려면 실제 토큰 비용을 알아야 한다.
@@ -351,6 +352,7 @@ claude -r          # 최근 대화 목록에서 선택
 
 > **⚠️ Warning:** 컨텍스트가 50%를 넘으면 "Dumb Zone"에 진입한다. Claude의 추론 품질이 눈에 띄게 떨어진다. 이 구간에서 대규모 리팩토링이나 복잡한 판단을 피하라. /compact 후에 시작하라.
 
+<!-- section:reflection -->
 ## Harness 관점: Context 레이어
 
 Harness Engineering의 핵심 통찰:

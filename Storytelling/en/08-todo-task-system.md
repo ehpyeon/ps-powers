@@ -87,6 +87,7 @@ External TodoManager (always accessible):
 
 ---
 
+<!-- section:workshop -->
 ## TodoWrite: In-Session Plan Management
 
 ### Three States and One Critical Constraint
@@ -362,6 +363,7 @@ This is why Claude Code is not just a code generator but a **self-directed devel
 
 ---
 
+<!-- section:reflection -->
 ## The Problem That Emerged as the Task System Matured
 
 The Task System brought order to the work. But using it in practice revealed a new problem.

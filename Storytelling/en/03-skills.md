@@ -86,6 +86,7 @@ Total tokens consumed drops significantly.
 
 ---
 
+<!-- section:workshop -->
 ## Skills in Claude Code = Slash Commands
 
 The Two-Layer pattern is implemented in Claude Code as **slash commands**.
@@ -204,6 +205,7 @@ With a single skill, `/compact`, `/compact force`, and `/compact check` all beha
 
 ---
 
+<!-- section:reflection -->
 ## CLAUDE.md vs Rules vs Skills — What Goes Where?
 
 ```

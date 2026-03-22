@@ -106,6 +106,7 @@ This content is automatically injected again → agent remembers
 
 ---
 
+<!-- section:workshop -->
 ## Three Memory Scopes
 
 Memory is divided into three scopes. Like CSS specificity, the more specific scope takes precedence:
@@ -353,6 +354,7 @@ In the next session, the code-reviewer already knows these patterns. The time sp
 
 > **❌ Anti-pattern:** Don't put guarantees in MEMORY.md. "Always use pnpm" belongs in CLAUDE.md or Rules. MEMORY.md is for learned **operational knowledge** — observations, not guarantees.
 
+<!-- section:reflection -->
 ## Harness Perspective: The Knowledge Layer Completes
 
 ```
