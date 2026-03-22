@@ -13,7 +13,7 @@ export const translations = {
     searchHint: "검색",
     menuOpen: "메뉴 열기",
     menuClose: "메뉴 닫기",
-    creditsLink: "Credits",
+    creditsLink: "Credits & Author",
 
     // Home page
     heroSubtitle: "스토리텔링으로 배우는 Claude Code",
@@ -95,7 +95,7 @@ export const translations = {
     // Credits page
     creditsPageTitle: "Credits & Author",
     creditsAuthorSection: "만든 사람",
-    creditsAuthorBio: "Claude Code와 AI 에이전트 시스템에 관심이 많은 개발자입니다. Harness Engineering의 개념을 스토리텔링으로 전달하기 위해 이 프로젝트를 만들었습니다.",
+    creditsAuthorBio: "AI 에이전트 시스템에 관심 많은 문제 해결사입니다. Harness Engineering의 개념을 스토리텔링으로 전달하기 위해 이 프로젝트를 만들었습니다.",
     creditsAuthorConnect: "연결하기",
     creditsReferencesSection: "참고한 프로젝트",
     creditsReferencesDesc: "Harness 101은 다음 훌륭한 프로젝트들에서 영감을 받았습니다.",
@@ -117,7 +117,7 @@ export const translations = {
     searchHint: "Search",
     menuOpen: "Open menu",
     menuClose: "Close menu",
-    creditsLink: "Credits",
+    creditsLink: "Credits & Author",
 
     // Home page
     heroSubtitle: "Learning Claude Code through Storytelling",
@@ -199,7 +199,7 @@ export const translations = {
     // Credits page
     creditsPageTitle: "Credits & Author",
     creditsAuthorSection: "Author",
-    creditsAuthorBio: "A developer interested in Claude Code and AI agent systems. Built this project to share the concept of Harness Engineering through storytelling.",
+    creditsAuthorBio: "A problem solver interested in AI agent systems. Built this project to share the concept of Harness Engineering through storytelling.",
     creditsAuthorConnect: "Connect",
     creditsReferencesSection: "References",
     creditsReferencesDesc: "Harness 101 was inspired by and built upon the following great works.",

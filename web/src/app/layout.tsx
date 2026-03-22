@@ -8,8 +8,8 @@ import ReadingProgress from "@/components/ReadingProgress";
 import SettingsToggles from "@/components/SettingsToggles";
 
 export const metadata: Metadata = {
-  title: "Harness 101 — Learning Harness Engineering through Storytelling",
-  description: "Follow Jimin's 4-week journey to master Claude Code and become a Harness Engineer",
+  title: "Harness 101 — Master the Agent's Work Environment",
+  description: "Learn how to engineer the Harness that shapes AI agents — Tools, Knowledge, Context, and Permissions — through a 17-unit storytelling guide.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -48,8 +48,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     C
                   </div>
                   <div className="flex flex-col leading-tight">
-                    <span className="font-semibold text-sm text-[var(--color-text)]">harness101</span>
-                    <span className="text-[10px] text-[var(--color-text-muted)] hidden sm:block">Jimin&apos;s 4 Weeks</span>
+                    <span className="font-semibold text-sm text-[var(--color-text)]">Harness 101</span>
+                    <span className="text-[10px] text-[var(--color-text-muted)] hidden sm:block">Master the Agent&apos;s Work Environment</span>
                   </div>
                 </a>
 
