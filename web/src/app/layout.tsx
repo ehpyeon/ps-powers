@@ -48,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     C
                   </div>
                   <div className="flex flex-col leading-tight">
-                    <span className="font-semibold text-sm text-[var(--color-text)]">ps-powers</span>
+                    <span className="font-semibold text-sm text-[var(--color-text)]">harness101</span>
                     <span className="text-[10px] text-[var(--color-text-muted)] hidden sm:block">Jimin&apos;s 4 Weeks</span>
                   </div>
                 </a>

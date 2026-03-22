@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Credits — ps-powers",
-  description: "References and inspirations for ps-powers",
+  title: "Credits — harness101",
+  description: "References and inspirations for harness101",
 };
 
 const REFERENCES = [
@@ -13,7 +13,7 @@ const REFERENCES = [
     url: "https://github.com/shareAI-lab/learn-claude-code",
     description: {
       ko: "Claude Code를 처음 접하는 사람들을 위한 체계적인 학습 가이드. 이 프로젝트의 교육적 접근 방식에 큰 영향을 주었습니다.",
-      en: "A structured learning guide for Claude Code beginners. This project greatly influenced the educational approach of ps-powers.",
+      en: "A structured learning guide for Claude Code beginners. This project greatly influenced the educational approach of harness101.",
     },
     tag: "Learning",
     color: "indigo",
@@ -72,7 +72,7 @@ export default function CreditsPage() {
           Credits
         </h1>
         <p className="text-[var(--color-text-secondary)] leading-relaxed">
-          ps-powers는 다음 훌륭한 프로젝트들에서 영감을 받았습니다.
+          harness101은 다음 훌륭한 프로젝트들에서 영감을 받았습니다.
           <br />
           <span className="text-[var(--color-text-muted)] text-sm">
             This project was inspired by and built upon the following great works.
@@ -160,7 +160,7 @@ export default function CreditsPage() {
           MIT License — feel free to use, modify, and distribute.
         </p>
         <a
-          href="https://github.com/ehpyeon/ps-powers/blob/main/LICENSE"
+          href="https://github.com/ehpyeon/harness101/blob/main/LICENSE"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-2 inline-flex items-center gap-1.5 text-xs text-[var(--color-accent-hover)] hover:text-[var(--color-accent-soft)]"
