@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LangProvider } from "@/context/LangContext";
 import { MobileMenuButton } from "@/components/MobileSidebar";
+import HeaderLogo from "@/components/HeaderLogo";
 import CommandPalette from "@/components/CommandPalette";
 import ReadingProgress from "@/components/ReadingProgress";
 import SettingsToggles from "@/components/SettingsToggles";
@@ -43,15 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {/* Header */}
             <header className="sticky top-0 z-50 h-14 border-b border-[var(--color-border)] bg-[var(--color-bg)]/80 backdrop-blur-xl">
               <div className="max-w-6xl mx-auto h-full px-6 flex items-center gap-3">
-                <a href="/" className="flex items-center gap-2.5 group">
-                  <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center flex-shrink-0 shadow-sm shadow-indigo-500/30 group-hover:shadow-indigo-500/50 transition-shadow">
-                    <span className="text-[11px] font-black text-white tracking-tight">H</span>
-                  </div>
-                  <div className="flex flex-col leading-tight">
-                    <span className="font-semibold text-sm text-[var(--color-text)]">Harness 101</span>
-                    <span className="text-[10px] text-[var(--color-text-muted)] hidden sm:block">에이전트 작업 환경 이해하기</span>
-                  </div>
-                </a>
+                <HeaderLogo />
 
                 <div className="flex-1" />
 

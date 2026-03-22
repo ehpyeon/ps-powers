@@ -9,7 +9,7 @@ export const translations = {
     // Layout
     skipToContent: "본문으로 건너뛰기",
     headerTitle: "Harness 101",
-    headerSubtitle: "스토리텔링으로 배우는 Claude Code",
+    headerSubtitle: "에이전트 작업 환경 이해하기",
     searchHint: "검색",
     menuOpen: "메뉴 열기",
     menuClose: "메뉴 닫기",
@@ -121,7 +121,7 @@ export const translations = {
     // Layout
     skipToContent: "Skip to content",
     headerTitle: "Harness 101",
-    headerSubtitle: "Learning Claude Code through Storytelling",
+    headerSubtitle: "Understanding the Agent's Work Environment",
     searchHint: "Search",
     menuOpen: "Open menu",
     menuClose: "Close menu",
