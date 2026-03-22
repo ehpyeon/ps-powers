@@ -82,12 +82,12 @@ export default function Home() {
               {
                 layer: "knowledge" as const,
                 desc: t.heroLayerKnowledge,
-                chapters: [{ title: "CLAUDE.md", num: "02" }, { title: "Skills", num: "04" }, { title: "Rules", num: "08" }, { title: "Memory", num: "13" }],
+                chapters: [{ title: "CLAUDE.md", num: "02" }, { title: "Skills", num: "04" }, { title: "Rules", num: "08" }],
               },
               {
                 layer: "context" as const,
                 desc: t.heroLayerContext,
-                chapters: [{ title: "Task System", num: "05" }, { title: "Agents", num: "06" }, { title: "Compact", num: "11" }, { title: "Teams", num: "12" }, { title: "Worktree", num: "13" }],
+                chapters: [{ title: "Context Compact", num: "11" }, { title: "Agent Teams", num: "12" }, { title: "Worktree Isolation", num: "13" }, { title: "Agent", num: "06" }, { title: "MEMORY.md", num: "14" }, { title: "Token Economics", num: "15" }],
               },
               {
                 layer: "permissions" as const,

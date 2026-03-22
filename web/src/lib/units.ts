@@ -249,7 +249,7 @@ export const UNITS: UnitMeta[] = [
     },
   },
   {
-    id: "13", number: "14", title: "Agent Memory", subtitle: "드디어 경력사원이네",
+    id: "13", number: "14", title: "MEMORY.md", subtitle: "드디어 경력사원이네",
     motto: "에이전트는 매번 처음부터가 아니라, 점점 똑똑해져야 한다",
     layer: "knowledge", layerLabel: "Knowledge", act: "act3",
     difficulty: "중급", time: "60분", prerequisites: ["02", "08"],
