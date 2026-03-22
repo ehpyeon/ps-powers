@@ -77,7 +77,7 @@ export default function Home() {
               {
                 layer: "tools" as const,
                 desc: t.heroLayerTools,
-                chapters: [{ title: "MCPs", num: "09" }, { title: "Background", num: "07" }],
+                chapters: [{ title: "MCPs", num: "09" }, { title: "Background Task", num: "07" }],
               },
               {
                 layer: "knowledge" as const,
@@ -87,7 +87,7 @@ export default function Home() {
               {
                 layer: "context" as const,
                 desc: t.heroLayerContext,
-                chapters: [{ title: "Tasks", num: "05" }, { title: "Agents", num: "06" }, { title: "Compact", num: "11" }, { title: "Teams", num: "12" }, { title: "Worktree", num: "13" }],
+                chapters: [{ title: "Task System", num: "05" }, { title: "Agents", num: "06" }, { title: "Compact", num: "11" }, { title: "Teams", num: "12" }, { title: "Worktree", num: "13" }],
               },
               {
                 layer: "permissions" as const,
