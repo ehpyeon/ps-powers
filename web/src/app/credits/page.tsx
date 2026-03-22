@@ -102,10 +102,12 @@ export default function CreditsPage() {
 
         <div className="p-6 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-secondary)]">
           <div className="flex items-start gap-5">
-            {/* Avatar placeholder */}
-            <div className="w-14 h-14 rounded-xl bg-indigo-500 flex items-center justify-center text-white font-bold text-xl flex-shrink-0">
-              E
-            </div>
+            {/* Avatar */}
+            <img
+              src="https://avatars.githubusercontent.com/u/19993280?s=400&u=0a4178db402327f38f5a2729dd9e173da63271ec&v=4"
+              alt="Euihyeon Pyeon"
+              className="w-14 h-14 rounded-xl object-cover flex-shrink-0"
+            />
 
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 mb-1">
