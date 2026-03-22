@@ -186,6 +186,20 @@ html.light .code-copy-btn {
   background: rgba(255, 255, 255, 0.15);
 }
 /* Code explanation blockquote (after code) — same indigo, slightly muted */
+/* Layer badges — dark mode (default) */
+.layer-badge-foundation  { background: rgb(30 27 75 / 0.5); color: #a5b4fc; border-color: #4338ca; }
+.layer-badge-knowledge   { background: rgb(88 28 135 / 0.3); color: #d8b4fe; border-color: #7c3aed; }
+.layer-badge-permissions { background: rgb(120 53 15 / 0.3); color: #fcd34d; border-color: #b45309; }
+.layer-badge-context     { background: rgb(6 78 59 / 0.3);  color: #6ee7b7; border-color: #059669; }
+.layer-badge-tools       { background: rgb(30 58 138 / 0.3); color: #93c5fd; border-color: #2563eb; }
+
+/* Layer badges — light mode */
+html.light .layer-badge-foundation  { background: #e0e7ff; color: #3730a3; border-color: #a5b4fc; }
+html.light .layer-badge-knowledge   { background: #f3e8ff; color: #6d28d9; border-color: #c4b5fd; }
+html.light .layer-badge-permissions { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+html.light .layer-badge-context     { background: #d1fae5; color: #065f46; border-color: #6ee7b7; }
+html.light .layer-badge-tools       { background: #dbeafe; color: #1e40af; border-color: #93c5fd; }
+
 .prose pre + blockquote {
   border-left: 3px solid var(--color-accent);
   background: rgba(99,102,241,0.04);

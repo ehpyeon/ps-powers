@@ -116,14 +116,13 @@ export default function UnitPageClient({
         {/* Unit Header */}
         <header className="mb-10">
           {/* Meta row */}
-          <div className="flex items-center gap-2.5 mb-3">
+          <div className="flex items-center gap-2.5 mb-4">
             <svg viewBox="0 0 16 16" fill={LAYER_ICONS[unit.layer].color} className="w-4 h-4 flex-shrink-0">
               <path d={LAYER_ICONS[unit.layer].path} fillRule="evenodd" clipRule="evenodd" />
             </svg>
-            <span className={`px-2 py-0.5 rounded text-[10px] font-medium ${colors.bg} ${colors.text} border ${colors.border}`}>
+            <span className={`layer-badge layer-badge-${unit.layer} px-2 py-0.5 rounded text-[10px] font-semibold border`}>
               {layerLabel}
             </span>
-            <span className="text-xs text-[var(--color-text-muted)]">Ch.{unit.number} / {LEARNING_ORDER.length}</span>
             <span className="text-[var(--color-border)]">&middot;</span>
             <span className="text-xs text-[var(--color-text-muted)]">{difficulty}</span>
             <span className="text-[var(--color-border)]">&middot;</span>
@@ -131,39 +130,17 @@ export default function UnitPageClient({
           </div>
 
           {/* Title + Subtitle */}
-          <p className="text-sm text-[var(--color-text-muted)] mb-1 font-mono">{unit.title}</p>
           <h1 className="text-3xl font-extrabold tracking-tight text-[var(--color-text)]">
             {subtitle}
           </h1>
 
           {/* Motto */}
-          <div className="mt-5 flex items-center gap-3">
+          <div className="mt-4 flex items-center gap-3">
             <div className="flex-1 h-px bg-[var(--color-border-subtle)]" />
             <p className="text-sm italic text-indigo-400/70 px-2">
               &ldquo;{motto}&rdquo;
             </p>
             <div className="flex-1 h-px bg-[var(--color-border-subtle)]" />
-          </div>
-
-          {/* Harness position bar */}
-          <div className="mt-5 flex items-center gap-2 font-mono text-xs">
-            <span className="text-[var(--color-text-muted)]">Harness =</span>
-            {(["Tools", "Knowledge", "Context", "Permissions"] as const).map((layer) => {
-              const isActive =
-                (layer === "Tools" && (unit.layer === "tools" || unit.layer === "foundation")) ||
-                (layer === "Knowledge" && unit.layer === "knowledge") ||
-                (layer === "Context" && unit.layer === "context") ||
-                (layer === "Permissions" && unit.layer === "permissions");
-              const colorMap = { Tools: "text-blue-400", Knowledge: "text-purple-400", Context: "text-emerald-400", Permissions: "text-amber-400" };
-              return (
-                <span key={layer}>
-                  <span className={isActive ? `${colorMap[layer]} font-bold` : "text-[var(--color-text-muted)]/30"}>
-                    {isActive ? `【${layer}】` : layer}
-                  </span>
-                  {layer !== "Permissions" && <span className="text-[var(--color-border)] mx-1">+</span>}
-                </span>
-              );
-            })}
           </div>
 
           {/* Prerequisites + Complete */}

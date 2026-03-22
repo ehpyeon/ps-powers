@@ -78,6 +78,7 @@ export default function UnitTabs({
   const handleTabChange = (tabId: "campfire" | "workshop" | "reflection") => {
     setActiveTab(tabId);
     setTocOpen(false);
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   // Next tab logic
